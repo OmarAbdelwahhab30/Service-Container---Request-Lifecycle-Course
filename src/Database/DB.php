@@ -11,7 +11,7 @@ class DB
     private $config;
 
     // Constructor to accept the config array
-    public function __construct($config,First $first)
+    public function __construct($config)
     {
         $this->config = $config;
         $this->connect();
